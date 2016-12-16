@@ -14,4 +14,15 @@ public class Circle {
 	public double getRadius(){
 		return radius;
 	}
+	
+	// get methods for area
+		public double getArea() {
+			double area = radius * radius * PI;
+			return area;
+		}
+		// get method for circumference
+		public double getCircumference() {
+			double circumference = 2 * PI * radius;
+			return circumference;
+		}
 }//close class Circle
